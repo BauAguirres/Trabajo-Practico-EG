@@ -1,0 +1,55 @@
+:root {
+    --colorPrincipal: #9900C2;
+    --colorSecundario: #6C008A;
+    --colorNav: #54006B;
+    --otro: #3C004C;
+    --oscuro: #2C0038;
+    --rojo: #ff0000;
+    --font: "pain-de-mie", sans-serif
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    margin-top: 0;
+}
+
+.navegacion{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.fondo {
+    background: linear-gradient(#b2b2b2, #ffffff);
+    background-repeat: no-repeat;
+}
+
+.contenedor {
+    max-width: 110rem;
+    margin: auto;
+}
+
+.links a {
+    color: var(--colorNav);
+    text-decoration: none;
+    font-family: var(--font);
+    font-size: 2em;
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem;
+
+}
+
+.logo {
+    width: 10rem;
+    height: 10rem;
+}
+
+.links a:hover {
+    color: var(--rojo);
+    transition: all 0.5s;
+}
+
